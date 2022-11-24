@@ -25,7 +25,7 @@ public class CalculatorTest {
 
         Assertions.assertEquals(20, resultTwo);
 
-        System.out.println("Result two does equal " + resultTwo);
+        System.out.println("Result two is equal to " + resultTwo);
     }
 
     @Test
