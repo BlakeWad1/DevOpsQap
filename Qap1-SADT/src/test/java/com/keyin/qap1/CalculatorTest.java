@@ -9,7 +9,7 @@ public class CalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        int resultOne = calculator.multiply(6,2);
+        int resultOne = calculator.multiply(4,2);
 
         Assertions.assertNotEquals(10, resultOne);
 
@@ -21,11 +21,11 @@ public class CalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        int resultTwo = calculator.add(11, 10);
+        int resultTwo = calculator.add(10, 10);
 
-        Assertions.assertEquals(21, resultTwo);
+        Assertions.assertEquals(20, resultTwo);
 
-        System.out.println("Result two does equal " + resultTwo);
+        System.out.println("Result two is equal to " + resultTwo);
     }
 
     @Test
